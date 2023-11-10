@@ -1,0 +1,31 @@
+.container {
+    background: var(--branco);
+    padding: 10px 10px 10px 10px;
+}
+
+.container__cabecalho {
+
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.cabecalho__hora {
+    padding-right: 240px;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: var(--fonte-principal);
+
+}
+
+@media screen and (min-width:1024px) {
+
+    .container {
+        display: none;
+
+    }
+
+
+}

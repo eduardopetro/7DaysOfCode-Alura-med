@@ -1,0 +1,191 @@
+.container__borda {
+    padding: 20px 22px 20px 20px;
+    border-radius: 8px;
+    background: var(--branco);
+    backdrop-filter: blur(11px);
+    border: 1px var(--branco);
+    margin: 1em;
+}
+
+
+.container__descricao {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+
+}
+
+.container__chat {
+    margin-left: 90px;
+
+
+}
+
+.container-titulo {
+    font-size: 14px;
+    color: var(--cinza-muito-escuro);
+    font-family: var(--fonte-principal);
+
+}
+
+.container__palavra {
+    letter-spacing: 2px;
+
+}
+
+.container__letra {
+    letter-spacing: 1.9px;
+
+}
+
+.container-letra {
+    letter-spacing: 0.5px;
+}
+
+.container__descricao-remoto {
+
+    padding: 0 50px 20px;
+
+}
+
+.container-texto {
+    font-size: 15px;
+    font-weight: 400;
+    color: gray;
+
+}
+
+.linha {
+    margin: 0.5em;
+
+}
+
+.horario {
+    color: var(--cinza-muito-escuro);
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.button {
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
+
+}
+
+.button__video {
+    padding: 20px 30px 20px 25px;
+    border-radius: 8px;
+    border: 1px solid var(--branco);
+    background: var(--laranja);
+    color: var(--branco);
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+
+
+
+}
+
+.button__audio {
+    padding: 20px 20px 20px 30px;
+    border-radius: 8px;
+    border: 1px solid var(--cinza-muito-escuro);
+    font-family: var(--fonte-principal);
+    color: gray;
+    background: var(--branco);
+    font-weight: 500;
+    font-size: 13px;
+
+}
+
+
+.button-endereco {
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+
+
+
+.button__endereco {
+    border-radius: 8px;
+    padding: 20px 100px 20px 100px;
+    background: var(--azul);
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid var(--azul);
+
+
+
+}
+
+@media screen and (min-width:1024px) {
+
+    .container__tablet {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 80px;
+        gap: 30px;
+    }
+
+    .container__borda {
+        width: 360px;
+
+    }
+
+    .dia__none {
+        display: none;
+
+    }
+
+    .dia__amanha {
+        position: absolute;
+        right: 870px;
+        bottom: -140px;
+    }
+
+    .container-delete {
+
+        display: none;
+
+    }
+
+}
+
+@media screen and (min-width:1624px) {
+
+    .container__tablet {
+        padding-left: 250px;
+
+
+    }
+
+    
+.amanha-desktop{
+    position: absolute;
+    right:1280px;
+    bottom: 135px
+}
+
+.Quarta-feira__desktop{
+display: block;
+position: absolute;
+right: 1240px;
+bottom: -135
+px;
+
+}
+
+
+}

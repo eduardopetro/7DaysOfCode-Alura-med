@@ -1,0 +1,72 @@
+.container__imagem {
+    margin: 2em;
+
+}
+
+.container__profissional {
+    display: flex;
+    align-items: center;
+
+}
+
+.container__titulo {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: var(--fonte-principal);
+    color: var(--cinza-muito-escuro);
+
+}
+
+.container__texto {
+    position: relative;
+    bottom: 40px;
+    padding-left: 120px;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cinza-muito-escuro);
+
+}
+
+.dia {
+    font-family: var(--fonte-principal);
+    font-size: 19px;
+    font-weight: 700;
+    color: var(--cinza-muito-escuro);
+    padding-left: 30px;
+
+
+}
+
+
+
+
+@media screen and (min-width:1024px) {
+
+    .container__medica {
+        padding-left: 4em;
+
+    }
+
+    .dia {
+
+        padding-left: 5em;
+
+
+    }
+
+}
+
+@media screen and (min-width:1624px){
+
+.container__medica{
+padding-left: 14em;
+}
+
+
+
+.hoje__desktop{
+padding-left: 14em;
+}
+
+}
